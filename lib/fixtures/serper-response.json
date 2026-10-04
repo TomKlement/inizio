@@ -1,0 +1,51 @@
+{
+  "searchParameters": {
+    "q": "tvorba webových stránek",
+    "gl": "cz",
+    "hl": "cs",
+    "type": "search",
+    "engine": "google"
+  },
+  "knowledgeGraph": {
+    "title": "Webová stránka",
+    "type": "Pojem",
+    "description": "Webová stránka je dokument určený k zobrazení ve webovém prohlížeči."
+  },
+  "organic": [
+    {
+      "title": "Tvorba webových stránek na míru | Inizio",
+      "link": "https://www.inizio.cz/tvorba-webovych-stranek/",
+      "snippet": "Navrhneme a naprogramujeme web, který prodává. Postaráme se o UX, SEO i obsah.",
+      "sitelinks": [
+        { "title": "Reference", "link": "https://www.inizio.cz/reference/" },
+        { "title": "Kontakt", "link": "https://www.inizio.cz/kontakt/" }
+      ],
+      "position": 1
+    },
+    {
+      "title": "Jak vytvořit webové stránky zdarma – návod krok za krokem",
+      "link": "https://www.example.cz/navod/jak-vytvorit-web",
+      "snippet": "Projdeme výběr domény, hostingu a redakčního systému, \"bez programování\".",
+      "date": "12. 3. 2026",
+      "position": 2
+    },
+    {
+      "title": "Webnode: Vytvořte si web zdarma",
+      "link": "https://www.webnode.cz/",
+      "position": 3
+    }
+  ],
+  "peopleAlsoAsk": [
+    {
+      "question": "Kolik stojí vytvoření webových stránek?",
+      "snippet": "Cena se pohybuje od několika tisíc korun.",
+      "title": "Ceník tvorby webu",
+      "link": "https://www.example.cz/cenik"
+    }
+  ],
+  "relatedSearches": [
+    { "query": "tvorba webových stránek cena" },
+    { "query": "tvorba webových stránek zdarma" }
+  ],
+  "credits": 1
+}
