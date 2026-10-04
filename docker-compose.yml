@@ -2,10 +2,13 @@ services:
   app:
     image: node:22-alpine
     working_dir: /app
-    command: sh -c "npm install && npm run dev"
+    # Docker Desktop doesn't pass file events through, so webpack polls (WATCHPACK_POLLING).
+    command: sh -c "npm install && npm run dev -- --webpack"
     ports:
       - "3000:3000"
     env_file: .env.local
+    environment:
+      WATCHPACK_POLLING: "true"
     volumes:
       - .:/app
       # node_modules and .next stay on the Linux volume, not on the Windows mount.
